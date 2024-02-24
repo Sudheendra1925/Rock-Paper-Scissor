@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <h1>ROCK-PAPER-SCISSOR</h1>
+    <div id="container">
+    <div id="main">
+  
+        <div class="img"> <p class="name">YOUR HAND</p> <input type="text" id="usc" class="card" value="0"><img id="uimg" class="hand" src="./images/rock.png"></div>
+      
+       <div id="btn">
+        
+        <button class="btn" onclick="input(1)"><img src="./images/rock.png"style="height: 100px; width: 100px;"></button>
+        <button class="btn" onclick="input(2)"><img src="./images/paper.png "style="height: 100px; width: 100px;"></button>
+        <button class="btn" onclick="input(3)"><img src="./images/scissor.png" style="height: 100px; width: 100px;"></button></div>
+    </div>
+
+
+    <input type="text" id="score" class="card" value="">
+
+
+    <div id="pcbox">
+      
+        <div class="img" id="pcimgbox" >  <p class="name">PC HAND</p> <input type="text" id="pcsc" class="card" value="0"><img id="pcimg" class="hand" src="./images/rock.png"> </div>
+
+        
+           
+           
+            <div id="rn">
+                <button class="rn" onclick="rn(1)">NEXT</button>
+                <button class="rn" onclick="rn(2)">RESTART</button>
+            </div>
+            
+        
+
+    </div>
+    
+</div>
+
+
+
+   
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
